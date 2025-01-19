@@ -1,26 +1,14 @@
 
 // ----problem-9----
 // Display sum of all the even numbers from 51 to 85.
-let sum =0;
+let sumtotal =0;
 for(let i=51; i<=85; i++){
-    if(i % 2==0){
-        console.log("even numbers", i);
+    if(i % 2==0){   
     }
-    sum +=i;
+   sumtotal +=i;  
 }
-console.log("total sum", sum);
 
-
-
-
-
-
-
-
-
-
-
-
+console.log("total sum", sumtotal);
 
 // 11.--Generate a multiplication table for number 9
 // let num = 9;

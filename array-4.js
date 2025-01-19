@@ -12,7 +12,7 @@ Instructions:
                 let books = ["Math", "Science", "Bangla"]; 
                 let address = { city: "Dhaka", country: "Bangladesh" };
                 
-               
+                
                 function checkIfArray(variable, variableName) {
                     if (Array.isArray(variable)) {
                         console.log(`The variable '${variableName}' is an array.`);
